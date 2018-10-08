@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 retval=`curl -b gogocookie.txt http://gogogatelocalIP/isg/statusDoor.php?numdoor=1`
 
 if [ "$retval" == "OK" ]
